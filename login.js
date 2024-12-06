@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Enviar los datos al servidor a través de AJAX
         $.ajax({
-            url: 'http://localhost/api/public/login.php',  // Archivo PHP en el servidor
+            url: 'http://3.138.186.80/api/public/login.php',  // Archivo PHP en el servidor
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(data), // Convertir los datos a JSON

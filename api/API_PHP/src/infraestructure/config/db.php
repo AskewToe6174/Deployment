@@ -1,7 +1,7 @@
 <?php
-     $server = '192.168.100.200';
-     $username = 'root';
-     $password = 'An8n0pcL.DSB&Lawyers';
+     $server = 'database-1.c788yem4g4uo.us-east-2.rds.amazonaws.com';
+     $username = 'onlyread';
+     $password = '-r4$rEquCo5#?hEwuc$0';
      $database = 'dsb&lawyers_dev_admin';
      $db = mysqli_connect($server, $username, $password, $database);
      if (!$db) {
