@@ -1,0 +1,50 @@
+:root {
+    --shadow-color: 286deg 36% 56%;
+    --shadow-elevation-low:
+      -0.4px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+      -0.6px 0.8px 1.1px -1.2px hsl(var(--shadow-color) / 0.34),
+      -1.5px 2px 2.8px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium:
+      -0.4px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+      -1.2px 1.7px 2.3px -0.8px hsl(var(--shadow-color) / 0.36),
+      -3.1px 4.2px 5.9px -1.7px hsl(var(--shadow-color) / 0.36),
+      -7.5px 10.1px 14.2px -2.5px hsl(var(--shadow-color) / 0.36);
+    --shadow-elevation-high:
+      -0.4px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+      -2.2px 3px 4.2px -0.4px hsl(var(--shadow-color) / 0.34),
+      -4.1px 5.5px 7.7px -0.7px hsl(var(--shadow-color) / 0.34),
+      -6.7px 9.1px 12.7px -1.1px hsl(var(--shadow-color) / 0.34),
+      -10.7px 14.5px 20.3px -1.4px hsl(var(--shadow-color) / 0.34),
+      -16.8px 22.6px 31.7px -1.8px hsl(var(--shadow-color) / 0.34),
+      -25.5px 34.4px 48.2px -2.1px hsl(var(--shadow-color) / 0.34),
+      -37.5px 50.6px 70.9px -2.5px hsl(var(--shadow-color) / 0.34);
+  }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13%;
+    gap: 15%;
+}
+
+main .left-secction{
+    display: flex;
+    flex-direction: column;
+}
+main .left-secction .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+main div .session{
+    display: flex;
+    padding: 10%;
+    height: 100%;
+    width: 130%;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: var(--shadow-elevation-high);
+}
+
